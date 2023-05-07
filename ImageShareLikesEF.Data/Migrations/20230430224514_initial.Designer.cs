@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ImageShareLikesEF.Data.Migrations
 {
     [DbContext(typeof(ImageDbContext))]
-    [Migration("20230430222524_ImageTable")]
-    partial class ImageTable
+    [Migration("20230430224514_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

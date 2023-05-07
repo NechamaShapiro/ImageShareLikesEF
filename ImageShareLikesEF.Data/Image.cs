@@ -11,7 +11,7 @@ namespace ImageShareLikesEF.Data
         public int Id { get; set; }
         public string Title { get; set; }
         public DateTime UploadedDate { get; set; }
-        public string Src { get; set; }
+        public string FileName { get; set; }
         public int Likes { get; set; }
     }
 }
